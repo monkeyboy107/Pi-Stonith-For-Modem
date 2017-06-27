@@ -1,0 +1,13 @@
+[Unit]
+Description=Pi Stonith for Modem
+After=network.target
+
+[Service]
+User=root
+Type=simple
+ExecStart=/bin/bash -c "pistonithformodem"
+Restart=always
+RestartSec=10s
+
+[Install]
+WantedBy=multi-user.target
