@@ -13,7 +13,7 @@ class Pinger(object):
     self.host = host   ## Add host param to object
     self.count = count ## Number of pings to try before failing
 
-  def ping(self):
+  def run(self):
     '''
     Performs a ping
     :return: If the ping was successful, returns true, else false

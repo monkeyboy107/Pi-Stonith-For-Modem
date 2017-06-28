@@ -9,7 +9,7 @@ class Resolver(object):
     self.name       = name       ## Add name param to object
     self.dns_server = dns_server ## DNS server to query
 
-  def resolve(self):
+  def run(self):
     '''
     Perform the resolution
     :return:
