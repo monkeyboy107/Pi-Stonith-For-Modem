@@ -38,7 +38,7 @@ class Modem(object):
     return((minutes*60)+seconds)
 
 
-modem = Modem('327b327b')
+modem = Modem('')
 #modem.reboot()
 import time
 while True:
