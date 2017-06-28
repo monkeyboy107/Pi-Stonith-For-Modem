@@ -85,3 +85,5 @@ venv/
 ENV/
 .spyderproject
 .ropeproject
+pistonithformodem.yaml
+foo.py
